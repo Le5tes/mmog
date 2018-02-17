@@ -4,7 +4,19 @@ Join our chatroom [here](http://strepsils.herokuapp.com/)
 Current version: 1.0.0
 
 ### What is Strepkills?
-Strepkills was made as a one week group challenge- a multiplayer game with a real-time chat and minimalist gameplay. It can be played on your browser and features your player avatar (or a 'strepsil') which is matched up with other player controlled avatars for dominion on the board.
+Strepkills was made as a one week group challenge- it aims to be a multiplayer game with a real-time chat and minimalist gameplay. It can be played on your browser and features your player avatar (or a 'strepsil') which is matched up with other player controlled avatars vying for dominion over the board.
+
+### Our one-line goal
+> A real-time browser-based game which facilitates multiple players on individual clients.
+
+### Prerequisites
+- Ruby v 2.4.1
+
+  get the latest verson here: https://www.ruby-lang.org/en/downloads/
+  
+- PostgreSQL v10.1
+
+  get here: https://gist.github.com/sgnl/609557ebacd3378f3b72
 
 ### Running on localhost
 
@@ -15,10 +27,13 @@ $ bundle install
 $ rails db:create
 $ rails db:migrate
 $ rails s
+go to http://localhost:3000 in browser
 ```
 
-### Our one-line goal
-> A real-time browser-based game which facilitates multiple players on individual clients.
+To run tests:
+```
+$ rspec
+```
 
 ### Technologies
 | Tech | Description |
